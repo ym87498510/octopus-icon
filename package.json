@@ -1,6 +1,6 @@
 {
   "name": "octopus-icon",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "自用icon字体图标，图标来源iconfont,如需使用，建议至官网下载https://www.iconfont.cn。",
   "main": "style.css",
   "scripts": {
