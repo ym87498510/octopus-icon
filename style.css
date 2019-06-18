@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'octopus';
+  src:
+    url('fonts/octopus.ttf?ilu3d1') format('truetype'),
+    url('fonts/octopus.woff?ilu3d1') format('woff'),
+    url('fonts/octopus.svg?ilu3d1#octopus') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'octopus' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.oc-piechart:before {
+  content: "\e78e";
+}
+.oc-setting:before {
+  content: "\e78f";
+}
+.oc-deleteuser:before {
+  content: "\e7ae";
+}
+.oc-user:before {
+  content: "\e7af";
+}
+.oc-team:before {
+  content: "\e7b0";
+}
+.oc-barchart:before {
+  content: "\e7b1";
+}
+.oc-shop:before {
+  content: "\e7ce";
+}
+.oc-calendar-check:before {
+  content: "\e7d3";
+}
+.oc-calendar:before {
+  content: "\e7d4";
+}
+.oc-camera:before {
+  content: "\e7d7";
+}
+.oc-video:before {
+  content: "\e7da";
+}
+.oc-image:before {
+  content: "\e7de";
+}
+.oc-mail:before {
+  content: "\e7df";
+}
+.oc-right:before {
+  content: "\e7eb";
+}
+.oc-left:before {
+  content: "\e7ec";
+}
+.oc-up:before {
+  content: "\e7ed";
+}
+.oc-down:before {
+  content: "\e7ee";
+}
+.oc-indent:before {
+  content: "\e7f3";
+}
+.oc-outdent:before {
+  content: "\e7f4";
+}
+.oc-menu:before {
+  content: "\e7f5";
+}
+.oc-caret-down:before {
+  content: "\e8ec";
+}
+.oc-caret-up:before {
+  content: "\e8ed";
+}
+.oc-caret-right:before {
+  content: "\e8ee";
+}
+.oc-caret-left:before {
+  content: "\e8ef";
+}

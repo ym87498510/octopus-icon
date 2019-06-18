@@ -1,0 +1,148 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ilu3d1') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ilu3d1') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ilu3d1##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.oc-piechart {
+  &:before {
+    content: $oc-piechart; 
+  }
+}
+.oc-setting {
+  &:before {
+    content: $oc-setting; 
+  }
+}
+.oc-deleteuser {
+  &:before {
+    content: $oc-deleteuser; 
+  }
+}
+.oc-user {
+  &:before {
+    content: $oc-user; 
+  }
+}
+.oc-team {
+  &:before {
+    content: $oc-team; 
+  }
+}
+.oc-barchart {
+  &:before {
+    content: $oc-barchart; 
+  }
+}
+.oc-shop {
+  &:before {
+    content: $oc-shop; 
+  }
+}
+.oc-calendar-check {
+  &:before {
+    content: $oc-calendar-check; 
+  }
+}
+.oc-calendar {
+  &:before {
+    content: $oc-calendar; 
+  }
+}
+.oc-camera {
+  &:before {
+    content: $oc-camera; 
+  }
+}
+.oc-video {
+  &:before {
+    content: $oc-video; 
+  }
+}
+.oc-image {
+  &:before {
+    content: $oc-image; 
+  }
+}
+.oc-mail {
+  &:before {
+    content: $oc-mail; 
+  }
+}
+.oc-right {
+  &:before {
+    content: $oc-right; 
+  }
+}
+.oc-left {
+  &:before {
+    content: $oc-left; 
+  }
+}
+.oc-up {
+  &:before {
+    content: $oc-up; 
+  }
+}
+.oc-down {
+  &:before {
+    content: $oc-down; 
+  }
+}
+.oc-indent {
+  &:before {
+    content: $oc-indent; 
+  }
+}
+.oc-outdent {
+  &:before {
+    content: $oc-outdent; 
+  }
+}
+.oc-menu {
+  &:before {
+    content: $oc-menu; 
+  }
+}
+.oc-caret-down {
+  &:before {
+    content: $oc-caret-down; 
+  }
+}
+.oc-caret-up {
+  &:before {
+    content: $oc-caret-up; 
+  }
+}
+.oc-caret-right {
+  &:before {
+    content: $oc-caret-right; 
+  }
+}
+.oc-caret-left {
+  &:before {
+    content: $oc-caret-left; 
+  }
+}
+
